@@ -1,0 +1,31 @@
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+.navigation-link {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #939699;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.button {
+    padding: 10px 20px;
+    background: #4592FF;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button-item {
+    margin-right: 10px;
+}
