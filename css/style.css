@@ -41,9 +41,16 @@ body {
 .slide {
     padding-top: 90px;
     padding-bottom: 110px;
+    min-height: 568px;
 }
 .slide-1 {
     background: #B4D1E0 url('../image/slide-image-1.png') no-repeat top right 45%;
+}
+.slide-2 {
+    background: #615fe4 url('../image/slide-image-1.png') no-repeat top right 45%;
+}
+.slide-3 {
+    background: #dbd147 url('../image/slide-image-1.png') no-repeat top right 45%;
 }
 .label {
     padding: 5px 12px;
@@ -78,6 +85,7 @@ body {
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 90;
 }
 .slider-button {
     background-color: transparent;

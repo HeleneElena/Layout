@@ -12,17 +12,18 @@
     rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     
 </head>
 <body>
     <header class="container header">
         <div class="row justify-content-between align-items-center">
-            <div class="col-2">
+            <div class="col-lg-2 col-6">
                 <a href="/">
                     <img class="logo-image" src="./image/logo.svg" alt="logo">
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 d-none d-lg-block">
                 <nav>
                     <ul class="navigation d-flex justify-content-around">
                         <li class="navigation-item">
@@ -46,7 +47,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-2 d-flex justify-content-end">
+            <div class="col-lg-2 col-6 d-flex justify-content-end">
                 <button class="button">
                     <img class="button-item" src="./image/Cart.svg" alt="cart">
                     <span class="button-text">Cart</span>
@@ -55,8 +56,9 @@
         </div>
         <!-- /.row -->
     </header>
-    <div class="slider">
-        <section class="slide slide-1">
+    <div class="slider swiper">
+        <div class="swiper-wrapper">
+            <section class="slide slide-1 swiper-slide">
             <div class="container">
                 <div class="row">
                     <div class="col-4 offset-lg-1">
@@ -71,17 +73,53 @@
                 </div>
                 <!-- /.row -->
             </div>
-        </section>
+            </section>
+            <section class="slide slide-2 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 offset-lg-1">
+                            <span class="label">Top</span>
+                            <h2 class="slide-title">Embroidered Hoodie</h2>
+                            <p class="slide-description">Women's pearl basic knit sweater <br>witharound neck. Available in several
+                                <br>colours. Free shipping to stores.</p>
+                            <button class="button">
+                                <span class="button-price">$319</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </section>
+            <section class="slide slide-3 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 offset-lg-1">
+                            <span class="label">New</span>
+                            <h2 class="slide-title">Text T-Shirt</h2>
+                            <p class="slide-description">Women's pearl basic knit sweater <br>witharound neck. Available in several
+                                <br>colours. Free shipping to stores.</p>
+                            <button class="button">
+                                <span class="button-price">$319</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </section>
+        </div>
+
         <div class="slider-nav">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-1">
-                        <button class="slider-button">
+                        <button class="slider-button slider-button-prev">
                             <img src="./image/Arrow.prev.svg" alt="arrow">
                         </button>
                     </div>
                     <div class="col-1">
-                        <button class="slider-button">
+                        <button class="slider-button slider-button-next">
                             <img src="./image/Arrow.next.svg" alt="arrow">
                         </button>
                     </div>
@@ -259,7 +297,7 @@
      
      </div>
     <!-- /.container -->
-
-    <script src="./main.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
