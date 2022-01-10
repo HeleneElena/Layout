@@ -4,300 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Willberries</title>
+    <title>StayHealthy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&family=Roboto+Slab:wght@700&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Lato:ital,wght@0,400;1,900&family=Poppins:wght@300;400;600;700;800&family=Roboto+Slab:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    
 </head>
 <body>
-    <header class="container header px-4 px-md-0">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-lg-2 col-6">
-                <a href="/">
-                    <img class="logo-image" src="./image/logo.svg" alt="logo">
-                </a>
+<div class="container">
+    <header class="header">
+            <div class="logo"> StayHealthy</div>
+            <nav class="nav">
+                <ul>
+                    <li class="header__list"><a href="#" class="header__Link first">Home</a></li>
+                    <li class="header__list"><a href="#" class="header__Link">Program</a></li>
+                    <li class="header__list"><a href="#" class="header__Link">Nutritions</a></li>
+                    <li class="header__list"><a href="#" class="header__Link">Pricing</a></li>
+                    <li class="header__list"><a href="#" class="header__Link">About</a></li>
+                </ul>
+            </nav>
+            <div> 
+                <button class="button">Join Now</button>
             </div>
-            <div class="col-lg-6 d-none d-lg-block">
-                <nav>
-                    <ul class="navigation d-flex justify-content-around">
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link">Womens</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link">Mens</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link">Goods</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link">Accessories</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link">Brands</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link">Blog</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-lg-2 col-6 d-flex justify-content-end">
-                <button class="button">
-                    <img class="button-item" src="./image/Cart.svg" alt="cart">
-                    <span class="button-text">Cart</span>
-                </button>
-            </div>
-        </div>
-        <!-- /.row -->
     </header>
-    <div class="slider swiper">
-        <div class="swiper-wrapper">
-            <section class="slide slide-1 swiper-slide">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-10 offset-lg-1">
-                        <span class="label">Bestseller</span>
-                        <h2 class="slide-title">Sweater <br>Choker Neck</h2>
-                        <p class="slide-description">Women's pearl basic knit sweater <br>witharound neck. Available in several <br>colours. Free shipping to stores.</p>
-                        <button class="button">
-                            <span class="button-price">$319</span>
-                            <span class="button-text">Shop now</span>
-                        </button>
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-            </section>
-            <section class="slide slide-2 swiper-slide">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-10 offset-lg-1">
-                            <span class="label">Top</span>
-                            <h2 class="slide-title">Embroidered Hoodie</h2>
-                            <p class="slide-description">Women's pearl basic knit sweater <br>witharound neck. Available in several
-                                <br>colours. Free shipping to stores.</p>
-                            <button class="button">
-                                <span class="button-price">$319</span>
-                                <span class="button-text">Shop now</span>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-            </section>
-            <section class="slide slide-3 swiper-slide">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-10 offset-lg-1">
-                            <span class="label">New</span>
-                            <h2 class="slide-title">Text T-Shirt</h2>
-                            <p class="slide-description">Women's pearl basic knit sweater <br>witharound neck. Available in several
-                                <br>colours. Free shipping to stores.</p>
-                            <button class="button">
-                                <span class="button-price">$319</span>
-                                <span class="button-text">Shop now</span>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-            </section>
-        </div>
+</div>
 
-        <div class="slider-nav">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-1">
-                        <button class="slider-button slider-button-prev">
-                            <img src="./image/Arrow.prev.svg" alt="arrow">
-                        </button>
-                    </div>
-                    <div class="col-1">
-                        <button class="slider-button slider-button-next">
-                            <img src="./image/Arrow.next.svg" alt="arrow">
-                        </button>
-                    </div>
-                </div>
+    <main>
+        <div class="container"> 
+        <section class="section-1">
+            <p class="section-1__text">WELCOME TO THE CLUB</p>
+            <h1 class="section-1__title">Choose Your Programs, <br> Pick Your Meal,<br>Let’s Get Healthy.</h1>
+            <div class="section-1__text_text2"> 
+                <p class="section-1__text">StayHealty provides Online Training, and Consultation About Diet and 
+                    Exercise tailored based on user needs. We will provide a training model 
+                    that can be accessed anytime and anywhere with the best trainers.</p>
             </div>
-        </div>
-        <!-- /.slider-nav -->
-    </div>
-    <!-- /.slider -->
-    <div class="container pt-5 pb-4">
-        <div class="row mb-4">
-            <div class="col-xl-6 mb-4">
-                <div class="card card-1">
-                    <h3 class="card-title">Fashion Month Ready in Capital Shop</h3>
-                    <p class="card-text">Bags & Acsessories & Lingerie & Sportswear &
-                    Beauty & Swimwear</p>
-                    <button class="button">
-                        <span class="button-text">View all</span>
-                        <img src="./image/button-icon.svg" alt="arrow" class="button-icon">
-                    </button>
-                </div>
+            <div class="section-1__button">
+                <button class="button">Join Now</button>
+                <button class="button button1">Contact Us</button>
             </div>
-            <div class="col-xl-6 mb-4">
-                <div class="card card-2">
-                    <h3 class="card-title card-title-2">Catch the Sun: Spring Break Styles From $5.99</h3>
-                    <p class="card-text">Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit</p>
-                    <button class="button">
-                        <span class="button-text">View all</span>
-                        <img src="./image/button-icon.svg" alt="arrow" class="button-icon">
-                    </button>
-                </div>
-            </div>
-            <div class="col-xl-9 col-lg-6 mb-4">
-                <div class="card card-3">
-                    <span class="label">Bestseller</span>
-                    <h3 class="card-title large">Poplin Top <br> With Sleeve Bow</h3>
-                    <p class="card-text large">Poplin top with roll neckline, long sleeves</p>
-                        <button class="button">
-                            <span class="button-price">$129</span>
-                            <span class="button-text">Shop now</span>
-                        </button>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6lg-" col-sm-6>
-                <div class="card card-4">
-                    <h3 class="card-title ligth">Printed Shirt <br> with a Bow</h3>
-                    <p class="card-text ligth">Pink/Sky Blue/Yellow</p>
-                    <span class="text-price ligth">$129</span>
-            </div>
+        </section>
+
 
         </div>
-            <div class="row align-items-center mb-4">
-                <div class="col-9">
-                    <h2 class="section-title">New Arrival</h2>
-                </div>
-                <div class="col-3 d-flex justify-content-end">
-                    <a href="#" class="more">View All</a>
-                </div>
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label -->
-                        <img src="./image/goods1.jpg" alt="goods" class="goods-image">
-                        <h3 class="goods-title">Embroidered Hoodie</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Yellow/Lilac/Fuchsia/Orange</p>
-                        <!-- /.goods-description -->
-                        <span class="goods-price">$89</span>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label -->
-                        <img src="./image/goods2.jpg" alt="goods" class="goods-image">
-                        <h3 class="goods-title">Faded Beach Trousers</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Navy/Ochre/Black/Khaki</p>
-                        <!-- /.goods-description -->
-                        <span class="goods-price">$139</span>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label -->
-                        <img src="./image/goods3.jpg" alt="goods" class="goods-image">
-                        <h3 class="goods-title">Text T-Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">White</p>
-                        <!-- /.goods-description -->
-                        <span class="goods-price">$59</span>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label -->
-                        <img src="./image/goods4.jpg" alt="goods" class="goods-image">
-                        <h3 class="goods-title">Striped Long Sleeve Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Red/Sky Blue</p>
-                        <!-- /.goods-description -->
-                        <span class="goods-price">$119</span>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-            </div>
-            <!-- /.row -->
+    </main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-xl-7 mb-4 mb-xl-0">
-                    <nav>
-                        <ul class="footer-menu d-sm-flex">
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Shop</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">About Us</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Careers</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQ</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Blog</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contacts</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center">
-                    <span class="footer-text">Follow Us</span>
-                    <span class="footer-social d-inline-flex align-items-center">
-                        <a href="#" class="footer-link">
-                            <img src="./image/Facebook.svg" alt="Facebook">
-                        </a>
-                        <a href="#" class="footer-link">
-                            <img src="./image/Twitter.svg" alt="Twitter">
-                        </a>
-                        <a href="#" class="footer-link">
-                            <img src="./image/Instagram.svg" alt="Instagram">
-                        </a>
-                    </span>
-                </div>
-                <div class="col-xl-2 col-lg-3 d-flex justify-content-lg-end mt-4 mt-lg-0">
-                    <span class="footer-text">© 2019 Universal UI Kit</span>
-                </div>
-            </div>
-            <hr color='white' class='footer-hr' size="1">
-            <div class="row justify-content-between">
-                <div class="col-lg-4 col-sm-9">
-                    <img src="./image/visa.png" alt="visa" class="footer-logo">
-                    <img src="./image/mastercard.png" alt="mastercard" class="footer-logo">
-                    <img src="./image/PayPlay.png" alt="PayPlay" class="footer-logo">
-                    <img src="./image/bitcoin.png" alt="bitcoin" class="footer-logo">
-                </div>
-                <div class="col-lg-2 col-sm-1 d-flex justify-content-end">
-                    <a href="#" class="top-link d-flex align-items-center">
-                        <span class="top-link-text">Top</span>
-                        <img src="./image/top-link.svg" alt="svg">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-     
-     </div>
-    <!-- /.container -->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="./js/main.js"></script>
+    <footer></footer>
 </body>
 </html>
