@@ -187,3 +187,43 @@ body {
 .section-4__text {
     margin-bottom: 30px;
 }
+.section-5__text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.section-5__title {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.section-5__cards {
+    display: flex;
+}
+.section-5__card {
+    width: 350px;
+    height: 682px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 35px rgba(112, 144, 176, 0.2);
+    border-radius: 35px;
+}
+.section-5__card_title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color:#161D2F;
+}
+.section-5__card_text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #222222;
+}
